@@ -1,0 +1,22 @@
+.launchH2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.emptyList li img {
+  width: 100%;
+}
+
+@media (min-width: 760px) {
+  .emptyList {
+    width: 560px;
+    height: 627px;
+  }
+}
